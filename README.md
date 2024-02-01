@@ -1,39 +1,37 @@
-# EHR-
+Requirements
+Before getting started, make sure you have the following tools installed and configured:
+1)Node.js
+    * Download Node.js
+2)	Ganache
+    * Download Ganache
+3) 		IPFS (Kubo)
+    * Download IPFS Kubo
+4) 		Metamask Extension
+    * Install Metamask
 
-REQUIREMENTS 
+*********************************************************************************************************
+*********************************************************************************************************
 
-1.Install nodeJs
+Setup Instructions
+Follow these steps to set up the project:
 
-Node JS
-2.Install Ganache
+1)Install Node.js
+2)Install Ganache
+3)Download IPFS Kubo
+4)Configure IPFS
+5)Add Metamask Extension in Browser
+6)Install project dependencies:
+  npm install --force
+7)Install Truffle globally:
+  npm install -g truffle
+8)Open Ganache:
 
-3. Download IPFS (kubo)
-IPFS Kubo
-
-configure ipfs refer: #15 (comment)
-4.Add Metamask Extension in Browser
-
-Metamask Chrome
-open cmd in project directory
-
-
-npm install --force
-
-5.open cmd/terminal as Administrator and type
-
-npm install -g truffle
-
-6.open Ganache
-
-New Workspace
-AddProject
-Select truffle-config.js in Project Directory
-Save Workspace
-
-7.Compile and migrate Contracts
-truffle migrate
-
-
-8.Run Server
-npm start
+** Create a new workspace.
+** Add the project and select truffle-config.js in the project directory.
+** Save the workspace.
+9)Compile and migrate contracts
+  truffle migrate
+10)Run the server:
+   nmp start
+11) Open your browser and ensure Metamask is connected.
 
